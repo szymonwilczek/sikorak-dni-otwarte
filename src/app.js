@@ -380,14 +380,14 @@ Ammo().then((Ammo) => {
     text_loader.load('./src/jsm/Roboto_Regular.json', function (font) {
       var xMid, text;
 
-      var color = 0xfffc00;
+      var color = 0x42EADDFF; //test
 
       var textMaterials = [
         new THREE.MeshBasicMaterial({ color: color }), // front
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry('SZYMON WILCZEK', {
+      var geometry = new THREE.TextGeometry('DNI OTWARTE', {
         font: font,
         size: 3,
         height: 0.5,
@@ -424,14 +424,14 @@ Ammo().then((Ammo) => {
     text_loader.load('./src/jsm/Roboto_Regular.json', function (font) {
       var xMid, text;
 
-      var color = 0x00ff08;
+      var color = 0xCDB599FF; //test
 
       var textMaterials = [
         new THREE.MeshBasicMaterial({ color: color }), // front
         new THREE.MeshPhongMaterial({ color: color }), // side
       ];
 
-      var geometry = new THREE.TextGeometry('DEWELOPER', {
+      var geometry = new THREE.TextGeometry('4 LO "SIKORAK"', {
         font: font,
         size: 1.5,
         height: 0.5,
@@ -1141,7 +1141,7 @@ Ammo().then((Ammo) => {
     if (isTouchscreenDevice()) {
       touchText = 'Dotknij kafelków \nżeby otworzyć linki.';
       instructionsText =
-        'Użyj sterowania na dole! Korzystaj z urządzenia w trybie portretowym (obrócone)!';
+        'Użyj sterowania na dole!\n Korzystaj z urządzenia\n w trybie portretowym (obrócone)!';
     } else {
       touchText = 'Dotknij kafelków \nżeby otworzyć linki.';
       instructionsText =
@@ -1151,9 +1151,9 @@ Ammo().then((Ammo) => {
     simpleText(9, 0.01, 5, instructionsText, 1.25);
 
     simpleText(23, 0.01, -60, touchText, 1.5);
-    simpleText(-50, 0.01, -5, 'UMIEJĘTNOŚCI', 3);
-    simpleText(-42, 0.01, -30, 'PROJEKTY', 3);
-    simpleText(61, 0.01, -15, 'W BRANŻY', 3);
+    simpleText(-50, 0.01, -5, 'WYBÓR KLAS', 3);
+    simpleText(-42, 0.01, -30, 'SPOŁECZNOŚĆ', 3);
+    simpleText(61, 0.01, -15, 'DROGA DO SUKCESU', 3);
 
     wallOfBricks();
     createTriangle(63, -55);

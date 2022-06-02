@@ -39,16 +39,16 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 //URLs
 let URL = {};
 URL.terpsolutions =
-  'https://palmdream.com/';
-URL.ryanfloyd = 'http://radzionkow.net';
+  'http://www.4lo.bytom.pl/'; //pierwszy mockup
+URL.ryanfloyd = 'http://radzionkow.net'; //? główna stronka 
 URL.bagholderBets = 'https://github.com/Walkyst/lavalink-fork';
-URL.homeSweetHomeURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-URL.gitHub = 'https://github.com/szymonwilczek';
+URL.homeSweetHomeURL = 'https://github.com/szymonwilczek';
+URL.gitHub = 'https://github.com/szymonwilczek'; //ikonka githuba
 URL.twitter = 'https://twitter.com/szymon_wilczek';
-URL.LinkedIn = 'https://www.linkedin.com/in/szymon-wilczek-b83b41161/';
+URL.LinkedIn = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 URL.email = 'https://mailto:szymonwilczek@outlook.com';
-URL.githubBagholder = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-URL.githubHomeSweetHome = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+URL.githubBagholder = 'https://www.instagram.com/teraz_sikorak/';
+URL.githubHomeSweetHome = 'https://github.com/szymonwilczek';
 URL.devTo =
   'http://www.4lo.bytom.pl/';
 
